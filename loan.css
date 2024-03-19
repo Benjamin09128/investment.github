@@ -1,0 +1,588 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.List{
+	display: flex;
+	margin: 10px;
+	padding: 0px;
+	list-style: none;
+	font-size: 22PX;
+}
+.King{
+	margin: 0px 10px;
+}
+.King a{
+	text-decoration: none;
+	color: #fff;
+}
+.Nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: darkgreen;
+	border: 2px solid blueviolet;
+	padding: 20px 0px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align:right;
+}
+.Nav ul li a:after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: 2%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	transition: 0.5s;
+}
+.Nav ul li a:hover::after{
+	width: 100%;
+}
+.icons img{
+	display: none;
+}
+.Genius{
+  text-align: left;
+}
+.google{
+  color: red;
+}
+.button15{
+	color: black;
+	border: 1px;
+	font-size: 19px;
+	position: center;
+	display: flex;
+	width: 120px;
+	padding: 10px;
+	text-align: left;
+	margin: 0px;
+	border-radius: 0px;
+	background: transparent;
+	cursor: pointer;
+	background-color: red;
+}
+.button15:hover{
+	background: rgb(161, 3, 3);
+	transition: 1s;
+}
+.button15 a{
+	text-decoration: none;
+	color: #0a0a0a;
+}
+@media(max-width: 700px){
+  .Right-nav ul{
+		display: block;
+		text-align: left;
+	}
+	.Right-nav{
+		flex-direction: column;
+		position: fixed;
+		background: #ca2c20;
+		height: 100vh;
+		width: 200px;
+		top: 0;
+		right: -2000px;
+		text-align: left;
+		z-index: 2;
+		transition: 1s;
+	}
+	.icons img{
+		display: block;
+		color: black;
+		margin: 10px;
+		width: 50px;
+		cursor: pointer;
+	}
+	.Powered{
+		width: 200px;
+	}
+	.header{
+		width: 100px;
+	}
+  .section2{
+    flex-direction: column;
+  }
+  .section3{
+    flex-direction: column;
+  }
+  .button3{
+    margin: 20px;
+    text-align: left;
+  }
+	.plansbtn{
+		display: none;
+	}
+	.financial{
+		flex-direction: column;
+	}
+	.financial img{
+		width: 250px;
+	}
+	.section p{
+		width: 380px;
+		font-size: 30px;
+	}
+	.features{
+		flex-direction: column;
+	}
+	.features img{
+		width: 250px;
+	}
+	.links{
+		flex-direction: column;
+	}
+	.footer{
+		font-size: 10px;
+	}
+}
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: url("images/OK31.png");
+	background-position: bottom;
+	background-size: cover;
+	color: #fff;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+}
+.header a{
+	text-decoration: none;
+	padding: 8px 15px;
+	background: #fc036b;
+	color: whitesmoke;
+	padding-top: 0px;
+}
+.header-content h1{
+	font-size: 40px;
+}
+.section2{
+	display: flex;
+	margin-left: 5%;
+  margin-top: 50px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+.section2 a{
+	text-decoration: none;
+	color: black;
+}
+.button3{
+	width: 110px;
+	padding: 10px;
+	padding-top: 5px;
+	text-align: left;
+	font-family: sans-serif;
+	position: center;
+	font-size: 15px;
+	margin: 10px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background: transparent;
+	background-color: rgb(250, 230, 234);
+}
+.button3 a:hover{
+	color: red;
+	transition: 1s;
+}
+.button4{
+	width: 70px;
+	padding: 10px;
+	padding-top: 5px;
+	text-align: left;
+	font-family: sans-serif;
+	position: center;
+	font-size: 15px;
+	margin: 10px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background: transparent;
+	background-color: rgb(250, 230, 234);
+}
+.button4 a:hover{
+	color: red;
+	transition: 1s;
+}
+.button5{
+	width: 120px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: left;
+	position: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin: 10px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background: transparent;
+	background-color:  rgb(250, 230, 234);
+}
+.button5 a:hover{
+	color: red;
+	transition: 1s;
+}
+.button6{
+	width: 200px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: left;
+	position: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin: 10px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background: transparent;
+	background-color:  rgb(250, 230, 234);
+}
+.button6 a:hover{
+	color: red;
+	transition: 1s;
+}
+.button7{
+	width: 200px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: left;
+	position: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin: 10px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background: transparent;
+	background-color:  rgb(250, 230, 234);
+}
+.button7 a:hover{
+	color: red;
+	transition: 1s;
+}
+.section3{
+	display: flex;
+	margin: 10px;
+	margin-top: 0px;
+	margin-left: 5%;
+	margin-bottom: 0%;
+}
+.section3 a{
+	text-decoration: none;
+	color: black;
+}
+.button8 a:hover{
+	color: red;
+	transition: 1s;
+}
+.button8{
+	width: 170px;
+	padding: 0px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: left;
+	position: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin: 10px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background: transparent;
+	background-color:  rgb(250, 230, 234);
+}
+.button9 a:hover{
+	color: red;
+	transition: 1s;
+}
+.button9{
+	width: 100px;
+	padding: 0px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: left;
+	position: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin: 10px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background: transparent;
+	background-color:  rgb(250, 230, 234);
+}
+.button10 a:hover{
+	color: red;
+	transition: 1s;
+}
+.button10{
+	width: 120px;
+	padding: 0px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: left;
+	position: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin: 10px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background: transparent;
+	background-color:  rgb(250, 230, 234);
+}
+.button11 a:hover{
+	color: red;
+	transition: 1s;
+}
+.button11{
+	width: 170px;
+	padding: 0px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: left;
+	position: center;
+	font-size: 15px;
+	margin: 10px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background: transparent;
+	background-color:  rgb(250, 230, 234);
+}
+.plansbtn{
+	columns: 2;
+}
+.plansbtn h3{
+	font-size: 35px;
+	margin: 20px;
+}
+.hero{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.second{
+	margin-left: 110px;
+	margin-top: 0px;
+}
+.Basic h3 span{
+	font-size: 25px;
+	margin: 150px;
+	margin-bottom: 0px;
+}
+.plansbtn span{
+	margin: 70px;
+}
+.Basic p{
+	font-size: 15px;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+.Basic p span{
+	padding: 70px;
+}
+.Basic hr{
+	width: 300px;
+	margin: 20px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.second hr{
+	width: 340px;
+	margin: 20px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.plans-col{
+	padding: 12px;
+}
+.plans-col span{
+	padding: 35px;
+}
+.plans-col1 span{
+	padding: 40px;
+}
+.plans-col2{
+	margin: 17px;
+	margin-left: 0px;
+}
+.plans-col3{
+	margin: 17px;
+	margin-left: 0px;
+}
+.plans-col4{
+	margin: 17px;
+	margin-left: 0px;
+}
+.plans-col4 span{
+	margin-left: 40px;
+}
+.plans-col41{
+	margin: 17px;
+	margin-left: 0px;
+}
+.plans-col41 span{
+	margin-left: 35px;
+}
+.plans-col5{
+	margin: 20px;
+	margin-left: 0px;
+	margin-bottom: 23px;
+}
+.plans-col5 span{
+	margin-left: 60px;
+}
+.button12{
+	width: 200px;
+	padding: 13px;
+	text-align: center;
+	margin: 2px;
+	margin-bottom: 0px;
+	border-radius: 3px;
+	font-size: 20px;
+	border: 2px;
+	background: transparent;
+	cursor: pointer;
+	background-color: rgb(255, 0, 13);
+}
+.button12:hover{
+	background-color: rgb(250, 42, 42);
+	transition: 1s;
+}
+.empowering-section{
+	margin-top: 60px;
+	margin: 10px;
+}
+.section h1{
+	font-size: 30px;
+}
+.financial{
+	display: flex;
+}
+.section p{
+	font-size: 25px;
+	font-family: sans-serif;
+}
+.section1{
+	font-size: 30px;
+	color: red;
+}
+.skillbar {
+  height: 3px;
+  line-height: 7px;
+  background-color: red;
+  margin: 8px;
+  position: relative;
+  width: 10%;
+  display: relative;
+}
+.feat{
+	font-size: 30px;
+	color: red;
+	margin: 38%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.unlocking-features{
+	margin-top: 60px;
+	margin: 10px;
+}
+.features{
+	display: flex;
+}
+.power{
+	margin: 10px;
+}
+.power h1{
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.power p{
+	font-size: 17px;
+	font-family: sans-serif;
+}
+.power ol li{
+	font-size: 17px;
+	font-family: sans-serif;
+}
+.skillbar1{
+  height: 3px;
+  line-height: 7px;
+  background-color: red;
+  margin: 8px;
+  position: relative;
+  width: 8%;
+  display: relative;
+  margin: 38%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.links{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.links-col{
+	flex-basis: 31%;
+	background: grey;
+	border-radius: 0px;
+	margin-bottom: 3%;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	margin: 0px;
+	color: #fff;
+}
+.links-col ul li{
+	list-style: none;
+	padding: 10px;
+}
+.links-col h3 a{
+	color: #94e5ff;
+}
+.links-col a:hover{
+	color: red;
+	transition: 1s;
+}
+.links-col p{
+	padding: 10px;
+}
+.skillbar2 {
+  height: 4px;
+  line-height: 7px;
+  background-color: red;
+  margin: 69px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+  position: relative;
+  width: 20%;
+  display: relative;
+}
+.links-col a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+.footer{
+	margin: 0px;
+	position: relative;
+	background-color: black;
+	color: #fff;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	text-align: center;
+}

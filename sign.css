@@ -1,0 +1,147 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+body{
+	background-image: url(Images/Logo.jpg);
+	background-color: blue;
+}
+@media(max-width: 700px){
+	.Genius{
+		width: 150%;
+	}
+	.input{
+		flex-direction: column;
+	}
+	.form input{
+		width: 70%;
+	}
+	.emailbtn form input{
+		padding: 10px;
+		width: 79%;
+	}
+}
+@media(max-width: 700px){
+	.email{
+		flex-direction: column;
+		padding: 4px;
+	}
+	.Language{
+		width: 70%;
+	}	
+}
+.Log{
+	background-color: #fff;
+	width: 50%;
+	margin: -10px;
+	padding: 40px;
+}
+.Log h1 a{
+	padding: 20px;
+	text-decoration: none;
+}
+.Welcome{
+	padding: 20px;
+	padding-bottom: 0px;
+}
+.Welcome p{
+	font-size: 25px;
+	color: darkgray;
+	padding-bottom: 10px;
+	width: 300px;
+	margin-left: -49px;
+}
+.Language{
+	width: 70%;
+	height: 8vh;
+}
+.email{
+	display: flex;
+	font-size: 25px;
+	padding: 20px;
+	margin: -40px;
+	padding-bottom: 20px;
+	color: darkgray;
+	width: 140%;
+}
+.refree input{
+	padding: 10px;
+	width: 57%;
+	font-size: 20px;
+}
+.email3 input{
+	font-size: 20px;
+}
+.emailbtn{
+	font-size: 25px;
+	padding: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-bottom: 20px;
+	color: darkgray;
+	width: 140%;
+}
+.emailbtn form input{
+	padding: 10px;
+	width: 15%;
+}
+.password{
+	font-size: 25px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	color: darkgray;
+}
+.forgot{
+	text-align: center;
+}
+.email form input{
+	padding: 10px;
+	width: 57%;
+}
+.email2{
+	display: flex;
+}
+.email2 form{
+	display: flex;
+}
+.email2 p{
+	text-align: right;
+}
+.button1{
+	width: 80%;
+	padding: 15px 0px;
+	text-align: center;
+	margin: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 25px;
+	background: transparent;
+	cursor: pointer;
+	background-color: #555;
+}
+.button1:hover{
+	border: 0px solid #f44336;
+	background: purple;
+	transition: 1s;
+}
+.signup p{
+	font-size: 25px;
+}
+.signup a{
+	text-decoration: none;
+}
+.signup span a:after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: 24%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	transition: 0.5s;
+}
+.signup span a:hover::after{
+	width: 15%;
+}

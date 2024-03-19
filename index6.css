@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+body{
+	background-color: blue;
+}
+.Log{
+	background-color: #fff;
+	box-sizing: border-box;
+	border-radius: 10px;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+}
+@media(max-width: 700px){
+	.Log{
+		width: 100%;
+	}
+	.Welcome h2{
+		width: 125%;
+	}
+}
+.Log h1 a{
+	padding: 20px;
+	text-decoration: none;
+}
+.Welcome{
+	padding: 10px;
+	padding-bottom: 0px;
+}
+.Welcome p{
+	font-size: 15px;
+	color: darkgray;
+	padding-bottom: 10px;
+}
+.email{
+	font-size: 15px;
+	padding: 10px;
+	padding-bottom: 20px;
+	color: darkgray;
+}
+.password{
+	font-size: 15px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	color: darkgray;
+}
+.forgot{
+	text-align: right;
+}
+.email form input{
+	padding: 10px;
+	width: 100%;
+}
+.email2{
+	display: flex;
+}
+.email2 form{
+	display: flex;
+}
+.email2 p{
+	text-align: right;
+}
+.button1{
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	background: transparent;
+	cursor: pointer;
+	background-color: #555;
+}
+.button1:hover{
+	border: 0px solid #f44336;
+	background: purple;
+	transition: 1s;
+}
+.signup p{
+	font-size: 15px;
+}
+.signup a{
+	text-decoration: none;
+}
